@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: #C2B2B4;
+  color: #FFF;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1 {
+  display: inline;
+  font-size: 74px;
+  letter-spacing: 5px;
+}
+
+.logo {
+  margin: 0px 10px 0px 5px;
+  height: 64px;
+}
+
+header, .inputs {
+  background-color: #3E2A35;
+}
+
+label {
+  font-weight: 600;
+}
+
+.input-label {
+  color: #938284;
+  font-size: 21px;
+}
+
+.button {
+  width: 270px;
+  height: 56px;
+  border: none;
+  background-color: #5B4447;
+  color: #FFF;
+  font-family: inherit;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;}
+.button:hover {
+  background-color: #938284;
+  cursor: pointer;
+}
+
+.choose-label {
+  display: inline-block;
+  padding: 13px 74px;
+}
+
+/*https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/*/
+.choose-input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.images {
+  padding: 40px 70px;
+}
+
+.single-image {
+  width: 245px;
+  height: 250px;
+  background-color: #FFF;
+  border: 2px solid #938284;
+}
+
+/*Caption not accepting formats?*/
+.single-image h2, .single-image p {
+  margin: 10px;
+  color: #3E2A35;
+  font-size: 21px;
+  font-weight: lighter;
+}
