@@ -12,7 +12,7 @@ body {
 
 .title {
   padding-top: 15px;
-  margin: 0px auto;
+  margin: auto;
 }
 
 h1 {
@@ -37,7 +37,7 @@ header, .inputs {
 
 .inputs {
   height: 250px;
-  width: 550px;
+  width: 606px;
   margin: auto;
 
 }
@@ -101,12 +101,14 @@ label {
 
 .single-card {
   width: 220px;
-  height: 330px;
+  height: 310px;
   background-color: #FFF;
   border: 2px solid #938284;
+  text-align: left;
 }
 
 /*Caption not accepting formats?*/
+/*what is this for? can we srhink this?*/
 .single-card h2, .single-card p {
   color: #3E2A35;
   font-size: 15px;
@@ -123,15 +125,32 @@ label {
 
 .card-photo {
   width: 216px;
+  height: 133px;
 }
 
 .card-caption {
-  height: 80px;
+  height: 75px;
   margin: 0px;
+  padding: 5px 0px 5px 5px;
 }
 
 .card-footer {
   margin: 0px;
-  height: 50px;
+  height: 55px;
   background-color: #5B4447;
+  padding: 5px 0px 5px 5px;
+}
+
+.card-icon {
+  width: 30px;
+  padding-top: 7px;
+}
+
+#heart {
+  float:right;
+  margin-right: 11px;
+}
+
+#trash {
+  margin-left: 7px;
 }
