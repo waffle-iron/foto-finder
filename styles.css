@@ -11,18 +11,19 @@ body {
 }
 
 .title {
-  padding: 22px 0px;
+  padding-top: 15px;
+  margin: 0px auto;
 }
 
 h1 {
   display: inline;
-  font-size: 64px;
+  font-size: 74px;
   letter-spacing: 5px;
 }
 
 .logo {
   margin: 0px 10px 0px 5px;
-  height: 54px;
+  height: 64px;
 }
 
 header {
@@ -35,7 +36,7 @@ header, .inputs {
 }
 
 .inputs {
-  height: 350px;
+  height: 250px;
   width: 550px;
   margin: auto;
 
@@ -47,25 +48,18 @@ label {
 
 .input-label {
   color: #938284;
-  font-size: 16px;
+  font-size: 21px;
   display: inline-block;
   float: left;
-  margin: 5px 0px;
+  margin: 10px 0px;
 }
 
 #input-title, #input-caption {
   display: block;
   margin: auto;
-  width: 550px;
-  height: 40px;
+  width: 605px;
+  height: 54px;
 }
-
-/*#input-caption {
-  display: block;
-  margin: auto;
-}*/
-
-
 
 .button {
   width: 230px;
@@ -77,6 +71,7 @@ label {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
+  margin: 30px 0px;
 }
 
 .button:hover {
@@ -84,12 +79,11 @@ label {
   cursor: pointer;
 }
 
-#choose, #add {
-  margin: 20px 0px;
+#add {
+  margin-left: 42px;
 }
 
-/*https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/*/
-.choose-input {
+#choose {
   width: 0.1px;
   height: 0.1px;
   opacity: 0;
@@ -98,21 +92,46 @@ label {
   z-index: -1;
 }
 
+/*https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/*/
+
+
 .cards {
   padding: 40px 70px;
 }
 
 .single-card {
-  width: 200px;
-  height: 250px;
+  width: 220px;
+  height: 330px;
   background-color: #FFF;
   border: 2px solid #938284;
 }
 
 /*Caption not accepting formats?*/
 .single-card h2, .single-card p {
-  margin: 10px;
   color: #3E2A35;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: lighter;
+}
+
+.card-title {
+  border: 2px solid #FFF;
+  background-color: #FFF;
+  margin: 2px 0px;
+  float: left;
+  padding: 5px 0px 5px 5px;
+}
+
+.card-photo {
+  width: 216px;
+}
+
+.card-caption {
+  height: 80px;
+  margin: 0px;
+}
+
+.card-footer {
+  margin: 0px;
+  height: 50px;
+  background-color: #5B4447;
 }
