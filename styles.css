@@ -7,21 +7,38 @@ body {
   background-color: #C2B2B4;
   color: #FFF;
   font-family: "Open Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  padding: 22px 0px;
 }
 
 h1 {
   display: inline;
-  font-size: 74px;
+  font-size: 64px;
   letter-spacing: 5px;
 }
 
 .logo {
   margin: 0px 10px 0px 5px;
-  height: 64px;
+  height: 54px;
+}
+
+header {
+  height: 500px;
 }
 
 header, .inputs {
   background-color: #3E2A35;
+
+}
+
+.inputs {
+  height: 350px;
+  width: 550px;
+  margin: auto;
+
 }
 
 label {
@@ -30,27 +47,45 @@ label {
 
 .input-label {
   color: #938284;
-  font-size: 21px;
+  font-size: 16px;
+  display: inline-block;
+  float: left;
+  margin: 5px 0px;
 }
 
+#input-title, #input-caption {
+  display: block;
+  margin: auto;
+  width: 550px;
+  height: 40px;
+}
+
+/*#input-caption {
+  display: block;
+  margin: auto;
+}*/
+
+
+
 .button {
-  width: 270px;
-  height: 56px;
+  width: 230px;
+  height: 50px;
   border: none;
   background-color: #5B4447;
   color: #FFF;
   font-family: inherit;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1px;}
+  letter-spacing: 1px;
+}
+
 .button:hover {
   background-color: #938284;
   cursor: pointer;
 }
 
-.choose-label {
-  display: inline-block;
-  padding: 13px 74px;
+#choose, #add {
+  margin: 20px 0px;
 }
 
 /*https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/*/
@@ -63,19 +98,19 @@ label {
   z-index: -1;
 }
 
-.images {
+.cards {
   padding: 40px 70px;
 }
 
-.single-image {
-  width: 245px;
+.single-card {
+  width: 200px;
   height: 250px;
   background-color: #FFF;
   border: 2px solid #938284;
 }
 
 /*Caption not accepting formats?*/
-.single-image h2, .single-image p {
+.single-card h2, .single-card p {
   margin: 10px;
   color: #3E2A35;
   font-size: 21px;
