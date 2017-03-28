@@ -1,6 +1,6 @@
 Project: Foto-Finder
 
-Group Member Names: Lindsey and Sasha  
+Group Member Names: Lindsay and Sasha  
 
 Project Expectations: What does each group member hope to get out of this project? 
 * Sasha: Flow with JS. Tidier HTML and CSS. Time management.
